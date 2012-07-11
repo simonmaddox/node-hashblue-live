@@ -1,7 +1,7 @@
 # node-hashblue-live
 
-Hashblue Live is a project inside O2 Labs build a streaming API on 
-top of your SMS. Right now we have inbound SMS working, and we're 
+Hashblue Live is a project inside O2 Labs to build a streaming API 
+on top of your SMS. Right now we have inbound SMS working, and we're 
 working on getting your outbound SMS.
 
 Hashblue Live also has the ability to stop delivery of a message to 
