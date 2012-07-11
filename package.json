@@ -1,0 +1,13 @@
+{
+	"author": "Simon Maddox <simon.maddox@o2.com>",
+	"name" : "node-hashblue-live",
+	"main": "./lib/hashblue-live.js",
+	"version" : "0.0.1",
+	"repository": {
+	    "type": "git",
+	    "url": "git+ssh://git@github.com:dogfood20/node-hashblue-live.git"
+	  },
+	"engines": {
+		"node": ">=0.4.0"
+	}
+}
