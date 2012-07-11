@@ -52,3 +52,27 @@ callback, and that will try to deliver the message in the usual way.
 
 If you don't call `shouldDeliverOnGSM`, the message will be 
 automatically delivered.
+
+## Getting your credentials
+
+Before you can use Hashblue Live, you'll need some credentials. It's 
+easy - just send an SMS with your desired password to `07TBD`. Your
+number will be provisioned, and you'll get a text back when it's all
+done.
+
+Then, use your phone number and chosen password in `client.connect`.
+
+## Turning off Hashblue Live
+
+If you want to disable Hashblue Live on your phone number, text
+`STOP` to `07TBD`. You'll receive a confirmation by SMS shortly
+afterwards.
+
+## Receiving SMS while your phone is offline
+
+Hashblue Live has the ability, in certain cases, to intercept 
+incoming messages even if your phone is turned off or out of 
+signal.
+
+Right now, that only works for messages sent by O2 customers. But
+we're working on making it available for messages from any network.
