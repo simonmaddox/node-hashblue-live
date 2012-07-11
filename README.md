@@ -9,7 +9,7 @@ the handset/SIM, so use with care.
 
 ## How to Install
 
-```
+```bash
 npm install node-hashblue-live
 ```
 
@@ -17,13 +17,13 @@ npm install node-hashblue-live
 
 First, require `node-hashblue-live`:
 
-```nodejs
+```js
 var hashblue = require('node-hashblue-live');
 ```
 
 Next, create a client and listen on the callbacks:
 
-```nodejs
+```js
 var client = new hashblue.Client();
 
 client.connect(msisdn,password, function(){
@@ -40,7 +40,7 @@ client.on("error", function(error){
 ```
 
 If you wish to stop delivery over GSM:
-```nodejs
+```js
 client.on("message", function(message, shouldDeliverOnGSM){
 	console.log("Message: " + message.data.body);
 	shouldDeliverOnGSM(false);
