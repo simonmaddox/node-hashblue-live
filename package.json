@@ -4,10 +4,14 @@
 	"main": "./lib/hashblue-live.js",
 	"version" : "0.0.1",
 	"repository": {
-	    "type": "git",
-	    "url": "git+ssh://git@github.com:dogfood20/node-hashblue-live.git"
-	  },
+		"type": "git",
+		"url": "git+ssh://git@github.com:dogfood20/node-hashblue-live.git"
+	},
 	"engines": {
 		"node": ">=0.4.0"
+	},
+	"dependencies": {
+		"node-xmpp": ">=0.3.1",
+		"node-stringprep" : "0.1.4"
 	}
 }
