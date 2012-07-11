@@ -76,3 +76,12 @@ signal.
 
 Right now, that only works for messages sent by O2 customers. But
 we're working on making it available for messages from any network.
+
+## A note on O2 Connect
+
+If you're an O2 Connect user, your Connect account will be deleted if
+you register with Hashblue Live. Unfortunately, at this time they are
+not compatible.
+
+If you do not want your O2 Connect account deleted, please do not use
+Hashblue Live.
