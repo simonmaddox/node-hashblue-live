@@ -48,7 +48,7 @@ client.on("message", function(message){
 ```
 
 For clarity you can also pass `true` to the deliverOnGSM 
-callback, and that will try to deliver the message in the usual way.
+method, and that will try to deliver the message in the usual way.
 
 If you don't call `deliverOnGSM`, the message will be 
 automatically delivered.
