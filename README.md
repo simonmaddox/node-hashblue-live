@@ -62,6 +62,8 @@ done.
 
 Then, use your phone number and chosen password in `client.connect`.
 
+[Screenshot](setup.png)
+
 ## Turning off Hashblue Live
 
 If you want to disable Hashblue Live on your phone number, text
