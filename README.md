@@ -30,7 +30,7 @@ client.connect(msisdn,password, function(){
 	console.log("Connected");
 });
 
-client.on("message", function(message, shouldDeliverOnGSM){
+client.on("message", function(message){
 	console.log("Message: " + message.body);
 });
 
@@ -41,16 +41,16 @@ client.on("error", function(error){
 
 If you wish to stop delivery over GSM:
 ```js
-client.on("message", function(message, shouldDeliverOnGSM){
+client.on("message", function(message){
 	console.log("Message: " + message.body);
-	shouldDeliverOnGSM(false);
+	message.deliverOnGSM(false);
 });
 ```
 
-For clarity you can also pass `true` to the shouldDeliverOnGSM 
+For clarity you can also pass `true` to the deliverOnGSM 
 callback, and that will try to deliver the message in the usual way.
 
-If you don't call `shouldDeliverOnGSM`, the message will be 
+If you don't call `deliverOnGSM`, the message will be 
 automatically delivered.
 
 ## Getting your credentials
