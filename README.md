@@ -31,7 +31,7 @@ client.connect(msisdn,password, function(){
 });
 
 client.on("message", function(message, shouldDeliverOnGSM){
-	console.log("Message: " + message.data.body);
+	console.log("Message: " + message.body);
 });
 
 client.on("error", function(error){
@@ -42,7 +42,7 @@ client.on("error", function(error){
 If you wish to stop delivery over GSM:
 ```js
 client.on("message", function(message, shouldDeliverOnGSM){
-	console.log("Message: " + message.data.body);
+	console.log("Message: " + message.body);
 	shouldDeliverOnGSM(false);
 });
 ```
