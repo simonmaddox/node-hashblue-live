@@ -5,7 +5,7 @@
 	"version" : "0.0.1",
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@github.com:dogfood20/node-hashblue-live.git"
+		"url": "git://github.com/o2Labs/node-hashblue-live.git"
 	},
 	"engines": {
 		"node": "0.6.x"
