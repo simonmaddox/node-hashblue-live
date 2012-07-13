@@ -62,7 +62,7 @@ done.
 
 Then, use your phone number and chosen password in `client.connect`.
 
-[Screenshot](setup.png)
+[Screenshot](node-hashblue-live/setup.png)
 
 ## Turning off Hashblue Live
 
